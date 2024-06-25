@@ -1,0 +1,93 @@
+<svg width="1035px" height="44px"
+ viewBox="0.00 0.00 1035.43 44.21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 40.21)">
+<title>workflow</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-40.21 1031.43,-40.21 1031.43,4 -4,4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<polygon fill="orange" stroke="black" points="39.12,-36.11 -0.12,-18.11 39.12,-0.11 78.36,-18.11 39.12,-36.11"/>
+<polyline fill="none" stroke="black" points="10.79,-23.11 10.79,-13.1 "/>
+<polyline fill="none" stroke="black" points="28.21,-5.11 50.03,-5.11 "/>
+<polyline fill="none" stroke="black" points="67.45,-13.1 67.45,-23.11 "/>
+<polyline fill="none" stroke="black" points="50.03,-31.1 28.21,-31.1 "/>
+<text text-anchor="middle" x="39.12" y="-13.91" font-family="Times,serif" font-size="14.00">start</text>
+</g>
+<!-- RetrieveNode -->
+<g id="node2" class="node">
+<title>RetrieveNode</title>
+<ellipse fill="lightgrey" stroke="black" cx="178.9" cy="-18.11" rx="64.83" ry="18"/>
+<text text-anchor="middle" x="178.9" y="-13.91" font-family="Times,serif" font-size="14.00">RetrieveNode</text>
+</g>
+<!-- start&#45;&gt;RetrieveNode -->
+<g id="edge1" class="edge">
+<title>start&#45;&gt;RetrieveNode</title>
+<path fill="none" stroke="black" d="M78.5,-18.11C86.54,-18.11 95.28,-18.11 104.12,-18.11"/>
+<polygon fill="black" stroke="black" points="104.12,-21.61 114.12,-18.11 104.12,-14.61 104.12,-21.61"/>
+</g>
+<!-- GradeNode -->
+<g id="node3" class="node">
+<title>GradeNode</title>
+<ellipse fill="lightgrey" stroke="black" cx="335.1" cy="-18.11" rx="55.58" ry="18"/>
+<text text-anchor="middle" x="335.1" y="-13.91" font-family="Times,serif" font-size="14.00">GradeNode</text>
+</g>
+<!-- RetrieveNode&#45;&gt;GradeNode -->
+<g id="edge2" class="edge">
+<title>RetrieveNode&#45;&gt;GradeNode</title>
+<path fill="none" stroke="black" d="M243.96,-18.11C252.31,-18.11 260.87,-18.11 269.24,-18.11"/>
+<polygon fill="black" stroke="black" points="269.32,-21.61 279.32,-18.11 269.32,-14.61 269.32,-21.61"/>
+</g>
+<!-- RewriteQueryNode -->
+<g id="node4" class="node">
+<title>RewriteQueryNode</title>
+<ellipse fill="lightgrey" stroke="black" cx="513.29" cy="-18.11" rx="86.8" ry="18"/>
+<text text-anchor="middle" x="513.29" y="-13.91" font-family="Times,serif" font-size="14.00">RewriteQueryNode</text>
+</g>
+<!-- GradeNode&#45;&gt;RewriteQueryNode -->
+<g id="edge3" class="edge">
+<title>GradeNode&#45;&gt;RewriteQueryNode</title>
+<path fill="none" stroke="black" d="M390.88,-18.11C399.01,-18.11 407.59,-18.11 416.27,-18.11"/>
+<polygon fill="black" stroke="black" points="416.49,-21.61 426.49,-18.11 416.49,-14.61 416.49,-21.61"/>
+</g>
+<!-- WebsearchNode -->
+<g id="node5" class="node">
+<title>WebsearchNode</title>
+<ellipse fill="lightgrey" stroke="black" cx="710.78" cy="-18.11" rx="74.68" ry="18"/>
+<text text-anchor="middle" x="710.78" y="-13.91" font-family="Times,serif" font-size="14.00">WebsearchNode</text>
+</g>
+<!-- RewriteQueryNode&#45;&gt;WebsearchNode -->
+<g id="edge4" class="edge">
+<title>RewriteQueryNode&#45;&gt;WebsearchNode</title>
+<path fill="none" stroke="black" d="M600.03,-18.11C608.49,-18.11 617.08,-18.11 625.52,-18.11"/>
+<polygon fill="black" stroke="black" points="625.74,-21.61 635.74,-18.11 625.74,-14.61 625.74,-21.61"/>
+</g>
+<!-- GenerateNode -->
+<g id="node6" class="node">
+<title>GenerateNode</title>
+<ellipse fill="lightgrey" stroke="black" cx="888.42" cy="-18.11" rx="66.59" ry="18"/>
+<text text-anchor="middle" x="888.42" y="-13.91" font-family="Times,serif" font-size="14.00">GenerateNode</text>
+</g>
+<!-- WebsearchNode&#45;&gt;GenerateNode -->
+<g id="edge5" class="edge">
+<title>WebsearchNode&#45;&gt;GenerateNode</title>
+<path fill="none" stroke="black" d="M785.76,-18.11C794.22,-18.11 802.86,-18.11 811.35,-18.11"/>
+<polygon fill="black" stroke="black" points="811.61,-21.61 821.61,-18.11 811.61,-14.61 811.61,-21.61"/>
+</g>
+<!-- end -->
+<g id="node7" class="node">
+<title>end</title>
+<polygon fill="lightgreen" stroke="black" points="1027.54,-36.32 991.11,-36.32 991.11,0.11 1027.54,0.11 1027.54,-36.32"/>
+<polyline fill="none" stroke="black" points="1003.11,-36.32 991.11,-24.32 "/>
+<polyline fill="none" stroke="black" points="991.11,-11.89 1003.11,0.11 "/>
+<polyline fill="none" stroke="black" points="1015.54,0.11 1027.54,-11.89 "/>
+<polyline fill="none" stroke="black" points="1027.54,-24.32 1015.54,-36.32 "/>
+<text text-anchor="middle" x="1009.32" y="-13.91" font-family="Times,serif" font-size="14.00">end</text>
+</g>
+<!-- GenerateNode&#45;&gt;end -->
+<g id="edge6" class="edge">
+<title>GenerateNode&#45;&gt;end</title>
+<path fill="none" stroke="black" d="M955.47,-18.11C964.34,-18.11 973.01,-18.11 980.67,-18.11"/>
+<polygon fill="black" stroke="black" points="980.76,-21.61 990.76,-18.11 980.76,-14.61 980.76,-21.61"/>
+</g>
+</g>
+</svg>
