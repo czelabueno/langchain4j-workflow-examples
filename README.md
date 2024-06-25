@@ -4,6 +4,11 @@ This repo have multiple advanced LLM examples using `langchain4j-workflow` and `
 ## LLM examples
 Please note that examples can be modified and more examples will be added over time.
 
+### MoA
+- **Mixture-of-Agents (MoA)**:
+    - Java example: [`langchain4j-moa`](langchain4j-moa)
+    - Based on Paper: https://arxiv.org/pdf/2406.04692
+  
 ### RAG
 - **Corrective RAG (CRAG)**:
     - Java example: [`langchain4j-corrective-rag`](langchain4j-corrective-rag)
